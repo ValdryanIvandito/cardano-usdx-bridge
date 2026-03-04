@@ -62,7 +62,7 @@ xReserve beroperasi lintas blockchain. Setiap blockchain yang didukung dapat ber
 - **_Remote chains_** di mana stablecoin berbasis USDC dicetak.
 - **_Destination chains_** di mana USDC atau stablecoin berbasis USDC pada akhirnya ditarik (_withdraw_).
 
-#### **Source Chains**
+#### **2.4.1.1 Source Chains**
 
 Berikut ini adalah tabel _blockchain_ _mainnet_ dan _testnet_ di mana kontrak cerdas _xReserve_ telah diimplementasikan. Pengguna mendepositkan USDC ke kontrak tersebut untuk menerima stablecoin berbasis USDC dalam jumlah yang setara di _remote blockchain_.
 
@@ -77,3 +77,25 @@ Berikut ini adalah tabel _blockchain_ _mainnet_ dan _testnet_ di mana kontrak ce
 | **Blockchain**   | **Alamat Token USDC**                                                                                                       | **Alamat Kontrak xReserve**                                                                                                   |
 | :--------------- | :-------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------- |
 | Ethereum Sepolia | [0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238](https://sepolia.etherscan.io/token/0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238) | [0x008888878f94C0d87defdf0B07f46B93C1934442](https://sepolia.etherscan.io/address/0x008888878f94C0d87defdf0B07f46B93C1934442) |
+
+#### **2.4.1.2 Remote Chains**
+
+Berikut adalah tabel blockchain mitra xReserve pada jaringan mainnet dan testnet di mana stablecoin berbasis USDC dapat dicetak.
+
+##### **Mainnet**
+
+| **Blockchain** | **Simbol Token** | **Alamat Token atau Pengidentifikasi**                                                                                                                                                                                                                                                   |
+| :------------- | :--------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Aleo           | USDCx            | [usdcx_stablecoin.aleo](https://explorer.provable.com/program/usdcx_stablecoin.aleo)                                                                                                                                                                                                     |
+| Canton         | USDCx            | [12208115f1e168dd7e792320be9c4ca720c751a02a3053c7606e1c1cd3dad9bf60ef](https://api.utilities.digitalasset.com/api/token-standard/v0/registrars/decentralized-usdc-interchain-rep::12208115f1e168dd7e792320be9c4ca720c751a02a3053c7606e1c1cd3dad9bf60ef/registry/metadata/v1/instruments) |
+| Cardano        | USDCx            | [1f3aec8bfe7ea4fe14c5f121e2a92e301afe414147860d557cac7e345553444378](https://cardanoscan.io/token/1f3aec8bfe7ea4fe14c5f121e2a92e301afe414147860d557cac7e345553444378)                                                                                                                    |
+| Stacks         | USDCx            | [SP120SBRBQJ00MCWS7TM5R8WJNTTKD5K0HFRC2CNE](https://explorer.hiro.so/txid/SP120SBRBQJ00MCWS7TM5R8WJNTTKD5K0HFRC2CNE.usdcx?chain=mainnet)                                                                                                                                                 |
+
+##### **Testnet**
+
+| **Blockchain** | **Simbol Token** | **Alamat Token atau Pengidentifikasi**                                                                                                                                                                                                                                                           |
+| :------------- | :--------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Aleo           | USDCx            | [test_usdcx_stablecoin.aleo](https://testnet.explorer.provable.com/program/test_usdcx_stablecoin.aleo)                                                                                                                                                                                           |
+| Canton         | USDCx            | [122049e2af8a725bd19759320fc83c638e7718973eac189d8f201309c512d1ffec61](https://api.utilities.digitalasset-staging.com/api/token-standard/v0/registrars/decentralized-usdc-interchain-rep::122049e2af8a725bd19759320fc83c638e7718973eac189d8f201309c512d1ffec61/registry/metadata/v1/instruments) |
+| Cardano        | USDCx            | [31dde3db98ad05feb688d4dbb146b3b6054e1246cbcef98c79b0bf665553444378](https://preprod.cardanoscan.io/token/31dde3db98ad05feb688d4dbb146b3b6054e1246cbcef98c79b0bf665553444378)                                                                                                                    |
+| Stacks         | USDCx            | [ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.usdcx](https://explorer.hiro.so/txid/ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.usdcx?chain=testnet)                                                                                                                                                   |
