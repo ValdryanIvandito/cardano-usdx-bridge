@@ -11,15 +11,17 @@ Tujuan dari terjemahan ini adalah untuk membantu:
 
 # 2. Daftar Isi
 
-1. Pendahuluan
-   [1.1 Gambaran Umum dan Manfaat xReserve](gambaran-umum-xreserve.md)
-2. Memulai
-   [2.1 Cara Kerja xReserve](cara-kerja-xreserve.md)
-   [2.2 Blockchain & Domain yang Didukung xReserve](blockchain-domain-xreserve.md)
-   [2.3 Memulai Cepat: Deposit USDC ke xReserve](deposit-usdc-xreserve.md)
-3. Withdrawal
-   [3.1 Withdrawal pada Remote Blockchain](withdrawal.md)
-   [3.2 Biaya Withdrawal](biaya-withdrawal.md)
+1. [Pendahuluan](gambaran-umum-xreserve.md)  
+   1.1 [Gambaran Umum dan Manfaat xReserve](gambaran-umum-xreserve.md)
+
+2. Memulai  
+   2.1 [Cara Kerja xReserve](cara-kerja-xreserve.md)  
+   2.2 [Blockchain dan Domain yang Didukung xReserve](blockchain-domain-xreserve.md)  
+   2.3 [Memulai Cepat: Deposit USDC ke xReserve](deposit-usdc-xreserve.md)
+
+3. Withdrawal  
+   3.1 [Withdrawal pada Remote Blockchain](withdrawal.md)  
+   3.2 [Biaya Withdrawal](biaya-withdrawal.md)
 
 # 3. Glossarium
 
