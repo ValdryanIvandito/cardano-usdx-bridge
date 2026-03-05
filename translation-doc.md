@@ -99,3 +99,40 @@ Berikut adalah tabel blockchain mitra xReserve pada jaringan mainnet dan testnet
 | Canton         | USDCx            | [122049e2af8a725bd19759320fc83c638e7718973eac189d8f201309c512d1ffec61](https://api.utilities.digitalasset-staging.com/api/token-standard/v0/registrars/decentralized-usdc-interchain-rep::122049e2af8a725bd19759320fc83c638e7718973eac189d8f201309c512d1ffec61/registry/metadata/v1/instruments) |
 | Cardano        | USDCx            | [31dde3db98ad05feb688d4dbb146b3b6054e1246cbcef98c79b0bf665553444378](https://preprod.cardanoscan.io/token/31dde3db98ad05feb688d4dbb146b3b6054e1246cbcef98c79b0bf665553444378)                                                                                                                    |
 | Stacks         | USDCx            | [ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.usdcx](https://explorer.hiro.so/txid/ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.usdcx?chain=testnet)                                                                                                                                                   |
+
+#### **2.4.1.3 Destination Chains**
+
+Berikut adalah _destination blockchain_ di mana USDC atau _stablecoin_ berbasis USDC pada akhirnya di-_withdraw_.
+
+- **_Blockchain_ yang didukung oleh _Gateway_:** Karena _xReserve_ menyimpan USDC di dompet _Gateway_, pengguna dapat _withdraw_ USDC pada _blockchain_ mana pun yang didukung oleh _Gateway_, termasuk _source chain_.
+
+- **_Blockchain_ yang didukung oleh CCTP:**  
+  Jika suatu _blockchain_ tidak didukung oleh _Gateway_, _xReserve_ akan menggunakan CCTP untuk meneruskan dana ke _blockchain_ lain. Hal ini memungkinkan pengguna untuk _withdraw_ USDC pada _blockchain_ mana pun yang didukung oleh CCTP.
+
+- **_Remote blockchain_ lainnya:** Pengguna dapat membakar _stablecoin_ berbasis USDC pada satu _remote blockchain_ untuk _withdraw_ _stablecoin_ berbasis USDC pada _remote blockchain_ lainnya.
+
+### **2.4.2 ID Domain**
+
+Domain adalah ID numerik yang diterbitkan oleh _Circle_ untuk suatu _blockchain_. _xReserve_ menggunakan ID domain dalam pesan dan pengesahan. ID domain tidak dipetakan ke ID _chain_ publik yang ada.
+
+Domain _xReserve_ dibagi menjadi dua kategori:
+
+- **_Source domain_** adalah _blockchain_ tempat USDC disimpan dalam kontrak _xReserve_.
+- **_Remote domain_** adalah _blockchain_ tempat _stablecoin_ berbasis USDC di-_deploy_, dicetak, dan beredar.
+
+**Catatan:** Gunakan _endpoint_ [**Get domain information**](https://developers.circle.com/api-reference/xreserve/all/get-info) untuk mendapatkan daftar seluruh _source domain_ dan _remote domain_.
+
+#### **2.4.2.1 Source Domain**
+
+| **Domain** | **Blockchain** |
+| :--------- | :------------- |
+| 0          | Ethereum       |
+
+#### **2.4.2.2 Remote Domain**
+
+| **Domain** | **Blockchain** |
+| :--------- | :------------- |
+| 10001      | Canton         |
+| 10002      | Aleo           |
+| 10003      | Stacks         |
+| 10004      | Cardano        |
