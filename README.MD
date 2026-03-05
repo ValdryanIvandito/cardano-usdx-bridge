@@ -9,9 +9,13 @@ Tujuan dari terjemahan ini adalah untuk membantu:
 - pembaca umum yang ingin memahami konsep xReserve
 - pengembang blockchain pemula yang mengalami kesulitan memahami dokumentasi asli
 
-**_Catatan: Beberapa istilah teknis dalam ekosistem Web3 dan blockchain sengaja tidak diterjemahkan agar tidak menimbulkan ambiguitas makna._**
+**_Catatan: Beberapa istilah teknis dalam ekosistem Web3 dan blockchain sengaja tidak diterjemahkan agar tidak menimbulkan ambiguitas makna, Anda dapat mempelajarinya di bagaian Glossarium._**
 
-# 2. Glossary
+# 2. Daftar Isi
+
+1. [Gambaran Umum xReserve](gambaran-umum-xreserve.md)
+
+# 3. Glossarium
 
 Dalam dokumentasi ini terdapat beberapa istilah yang tidak diterjemahkan ke dalam bahasa Indonesia. Hal ini dilakukan karena istilah tersebut sudah menjadi standar di industri blockchain dan apabila diterjemahkan justru dapat menyebabkan perubahan makna atau kebingungan.
 
