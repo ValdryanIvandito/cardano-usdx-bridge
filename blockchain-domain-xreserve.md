@@ -82,3 +82,5 @@ Domain _xReserve_ dibagi menjadi dua kategori:
 | 10002      | Aleo           |
 | 10003      | Stacks         |
 | 10004      | Cardano        |
+
+[← Previous](cara-kerja-xreserve.md) | [Table of Contents](README.md#daftar-isi) | [Next →]()

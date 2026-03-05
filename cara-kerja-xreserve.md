@@ -34,3 +34,6 @@ Setelah proses _withdrawal_ selesai, pengguna menerima USDC di _source blockchai
 
 **Catatan:** Sebagai bagian dari proses _withdrawal_ yang sama, _xReserve_ dapat meneruskan dana ke _blockchain_ lain. Hal ini memungkinkan pengguna untuk _withdraw_ dana dari blockchain selain _source blockchain_ tanpa melakukan transaksi _crosschain_.
 
+---
+
+[← Previous](gambaran-umum-xreserve.md) | [Table of Contents](README.md#daftar-isi) | [Next →](blockchain-domain-xreserve.md)

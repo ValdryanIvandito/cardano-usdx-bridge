@@ -14,3 +14,6 @@ _xReserve_ menawarkan berbagai manfaat bagi jaringan _blockchain_, para pengemba
 
 - **Asumsi kepercayaan yang diminimalkan:** Mekanisme pengesahan (_attesters_) _xReserve_ memverifikasi proses deposit dan pembakaran token (_burn_), sehingga mengurangi ketergantungan pada layanan pihak ketiga untuk mengonversi USDC.
 
+---
+
+[← Previous](README.md) | [Table of Contents](README.md#daftar-isi) | [Next →](cara-kerja-xreserve.md)
