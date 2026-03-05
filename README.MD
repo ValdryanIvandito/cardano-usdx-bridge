@@ -9,42 +9,11 @@ Tujuan dari terjemahan ini adalah untuk membantu:
 - pembaca umum yang ingin memahami konsep xReserve
 - pengembang blockchain pemula yang mengalami kesulitan memahami dokumentasi asli
 
-Catatan: Beberapa istilah teknis dalam ekosistem Web3 dan blockchain sengaja tidak diterjemahkan agar tidak menimbulkan ambiguitas makna.
+**_Catatan: Beberapa istilah teknis dalam ekosistem Web3 dan blockchain sengaja tidak diterjemahkan agar tidak menimbulkan ambiguitas makna._**
 
 # 2. Glossary
 
-## 2.1 Daftar Istilah yang Tidak Diterjemahkan
-
 Dalam dokumentasi ini terdapat beberapa istilah yang tidak diterjemahkan ke dalam bahasa Indonesia. Hal ini dilakukan karena istilah tersebut sudah menjadi standar di industri blockchain dan apabila diterjemahkan justru dapat menyebabkan perubahan makna atau kebingungan.
-
-Berikut adalah istilah yang tetap menggunakan bahasa aslinya:
-
-- Attestation
-- Blockchain
-- Burn
-- Circle
-- Deploy
-- Deposit
-- Destination Blockchain / Destination Chain
-- Domain
-- Endpoint
-- Gateway
-- Mainnet
-- Mint
-- Remote Blockchain / Remote Chain
-- Smart Contract
-- Source Blockchain / Source Chain
-- Stablecoin
-- Testnet
-- USDC
-- USDCx
-- Wallet
-- Withdraw / Withdrawal
-- xReserve
-
-## 2.2 Glossarium
-
-## Glossarium
 
 | Istilah                                        | Penjelasan                                                                                                                                                                                                                                                                        |
 | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
