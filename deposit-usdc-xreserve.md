@@ -362,3 +362,5 @@ npx tsx index.ts
 ### 3.3 Memverifikasi Deposit
 
 Setelah skrip selesai dieksekusi, temukan hash transaksi **deposit** pada keluaran terminal, lalu tempelkan ke [**Sepolia Etherscan**](https://sepolia.etherscan.io/) untuk mengonfirmasi transaksi deposit Anda. Wallet _Cardano Preprod_ penerima akan menerima USDCx yang telah di-_mint_. Anda dapat memverifikasi token pada [**Preprod CardanoScan**](https://preprod.cardanoscan.io/).
+
+[← Previous](blockchain-domain-xreserve.md) | [Table of Contents](README.MD#daftar-isi) | [Next →](withdrawal.md)
