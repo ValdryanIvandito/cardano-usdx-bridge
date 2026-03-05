@@ -36,4 +36,4 @@ Setelah proses _withdrawal_ selesai, pengguna menerima USDC di _source blockchai
 
 ---
 
-[← Previous](gambaran-umum-xreserve.md) | [Table of Contents](README.md#daftar-isi) | [Next →](blockchain-domain-xreserve.md)
+[← Previous](gambaran-umum-xreserve.md) | [Table of Contents](README.MD#daftar-isi) | [Next →](blockchain-domain-xreserve.md)

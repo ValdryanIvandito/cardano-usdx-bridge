@@ -16,4 +16,4 @@ _xReserve_ menawarkan berbagai manfaat bagi jaringan _blockchain_, para pengemba
 
 ---
 
-[← Previous](README.md) | [Table of Contents](README.md#daftar-isi) | [Next →](cara-kerja-xreserve.md)
+[← Previous](README.MD) | [Table of Contents](README.MD#daftar-isi) | [Next →](cara-kerja-xreserve.md)
