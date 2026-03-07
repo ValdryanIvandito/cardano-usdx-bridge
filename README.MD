@@ -18,10 +18,6 @@ Tujuan dari terjemahan ini adalah untuk membantu:
    2.2 [Blockchain dan Domain yang Didukung xReserve](blockchain-domain-xreserve.md)  
    2.3 [Memulai Cepat: Deposit USDC ke xReserve](deposit-usdc-xreserve.md)
 
-3. Withdrawal  
-   3.1 [Withdrawal pada Remote Blockchain](withdrawal.md)  
-   3.2 [Biaya Withdrawal](biaya-withdrawal.md)
-
 # 3. Glossarium
 
 Dalam dokumentasi ini terdapat beberapa istilah yang tidak diterjemahkan ke dalam bahasa Indonesia. Hal ini dilakukan karena istilah tersebut sudah menjadi standar di industri blockchain dan apabila diterjemahkan justru dapat menyebabkan perubahan makna atau kebingungan.
